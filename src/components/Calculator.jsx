@@ -54,7 +54,8 @@ const Calculator = ({}) => {
           </button>
 
           <div className="mt-4 text-white px-2">
-            Effective Interest Rate: {`${calculateIntrest(submittedNominalRate,submittedCompoundingPeriods)}%`}
+          Effective Interest Rate: {`${calculateIntrest(submittedNominalRate,submittedCompoundingPeriods)}%`}
+ 
           </div>          
         </div>
       </form>
